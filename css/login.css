@@ -1,0 +1,37 @@
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Raleway';
+	font-size: 16px;	
+	font-weight: bold;
+}
+.bg {
+	background: url('https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-9/10929981_337264926481505_2234265160129318993_n.png?_nc_cat=102&_nc_oc=AQndCZlvJP_DYrBcyZnFCkz0LiKCLChjziFuy7Mk7O9jLX47G1NkTESClVcRs5tqMUO6n7wU9wh_0qdHgQk1NutQ&_nc_ht=scontent.fhan3-1.fna&oh=29c69b87132a0e0390f1ce198c168b8e&oe=5E23E29A') no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+.row-container {
+	border: 1px solid #fff;
+	border-radius: 20px;
+	margin-top: 20vh; /* vh= Viewport's height */
+	padding: 30px;
+	-webkit-box-shadow: 0px 1px 22px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 22px 5px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 22px 5px rgba(0,0,0,0.75);
+}
+label, .form-check-label, h1 {
+	color: white;	
+	text-shadow: 2px 2px 10px #000;
+}
+ .passwordError {
+	color: red;
+	background-color: blanchedalmond;
+	padding-left: 10px;
+	border-radius: 4px;
+	margin-top: 1px;
+}
+.btn btn-success btn-block my-3{
+background-color: rgb(0,100,0);
+}

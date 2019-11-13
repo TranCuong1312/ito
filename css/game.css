@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+html, body {
+width: 100%;
+height: 100%;
+font-family: 'Lato';
+font-size: 20px;
+color: yellow;
+background-color: black;
+}
+
+.carousel-inner img{
+width: 100%;
+height: 750px;
+}
+
+.bt-wrong{
+background-color: white!important;
+border: 1px solid black;
+}
+
+.bt-wrong:hover {
+background-color: blue!important;
+}
+
+.bt-right{
+background-color: grey!important;
+border: 1px solid black;
+}
+
+.bt-right:hover {
+background-color: blue!important;
+}
